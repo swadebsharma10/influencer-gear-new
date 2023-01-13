@@ -12,23 +12,125 @@ body{
 
 .header{
     width: 100%;
+    height: 80vh;
+    background-image: url(../images/wave-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 
 .nav-container{
+    /* background-color: antiquewhite; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 90px 130px;
+    margin: 0px 120px;
+    padding: 20px;
+}
+.nav-items{
+    padding: 10px;
 }
 .nav-title{
     font-size: 24px;
     font-weight: 700px;
+    color: #FFF;
 }
 ul, li{
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    gap: 30px;
+    color: #FFF;
 }
 li:hover{
     color: orangered;
 }
+
+/* ----Banner style---- */
+
+
+.banner-container{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px;
+    padding: 30px;
+}
+.baner-title{
+    font-size: 52px;
+    font-weight: 700px;
+    color: #FFF;
+}
+.banner-content{
+    width: 582px;
+    height: 270px;
+}
+.banner-img{
+    width: 440px;
+    height: 414px;
+    margin-right: 140px;
+}
+.banner-img img{
+    width: 100%;
+}
+.pre-btn, a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: #FFF;
+    font-size: 16px;
+    align-items: center;
+}
+a:hover{
+    background-color: orangered;
+}
+/* ---main container---- */
+.main-container{
+    width: 100%;
+    /* background-image: url(../images/Hexagon\ \(1\).svg); */
+    background-color: #1D2F38;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.collection-container{
+    width: 1047px;
+    height: 1662px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    
+    
+}
+.collection-title{
+    padding: 15px;
+    margin-bottom: 35px;
+    color: #FFF;
+    font-size: 30px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.product{
+    width: 329px;
+    height: 476px;
+    background-color: #EAEDED;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    position: relative;
+    /* border: 1px solid green; */
+}
+.product-img{
+    margin: 19px 10px;
+}
+.product .img{
+    width: 300px;
+    height: 256px;
+    margin: 17px 14px;
+   
+}
+.fa-star.filles{
+    color: #FB8200;
+}
+
