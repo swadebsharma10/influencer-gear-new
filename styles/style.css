@@ -95,7 +95,7 @@ a:hover{
 }
 .collection-container{
     width: 1047px;
-    height: 1662px;
+    height: 1652px;
     /* border: 2px solid red; */
     margin: 0px auto;
     
@@ -132,5 +132,45 @@ a:hover{
 }
 .fa-star.filles{
     color: #FB8200;
+}
+/* ---link-container---- */
+.link-container{
+   width: 1100px;
+   height: 110px; 
+   border: 1px solid rgb(30, 29, 29);
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px;
+}
+#link-id{
+    margin-bottom: 55px;
+}
+.feater-container{
+    width: 1100px;
+    height: 270px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+}
+.feater-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-img img{
+   width: 400px;
+   height: 270px; 
+}
+.btn {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    align-items: center;
 }
 
